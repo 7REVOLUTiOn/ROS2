@@ -1,0 +1,190 @@
+[0.065s] Invoking command in '/root/ros2_ws/build/my_service_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/my_service_interfaces -- -j12 -l12
+[1.836s] [  2%] Built target my_service_interfaces__rosidl_generator_type_description
+[1.838s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_generator_c[0m
+[1.838s] [  2%] Built target ament_cmake_python_copy_my_service_interfaces
+[1.839s] [  5%] Built target my_service_interfaces__cpp
+[1.840s] [ 20%] Built target my_service_interfaces__rosidl_generator_c
+[1.840s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.841s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.843s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_cpp[0m
+[1.843s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_c[0m
+[1.844s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_introspection_c[0m
+[1.844s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.844s] [ 38%] Built target my_service_interfaces__rosidl_typesupport_introspection_c
+[1.845s] [ 38%] Built target my_service_interfaces__rosidl_typesupport_c
+[1.845s] [ 41%] [32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_interfaces/srv/set_velocity__type_support.cpp.o[0m
+[1.846s] [ 44%] [32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_interfaces/srv/detail/set_velocity__type_support_c.cpp.o[0m
+[1.846s] [ 47%] [32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_interfaces/srv/detail/set_velocity__type_support.cpp.o[0m
+[1.846s] [ 50%] [32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_interfaces/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o[0m
+[1.847s] running egg_info
+[1.847s] writing my_service_interfaces.egg-info/PKG-INFO
+[1.847s] writing dependency_links to my_service_interfaces.egg-info/dependency_links.txt
+[1.848s] writing top-level names to my_service_interfaces.egg-info/top_level.txt
+[1.848s] reading manifest file 'my_service_interfaces.egg-info/SOURCES.txt'
+[1.848s] writing manifest file 'my_service_interfaces.egg-info/SOURCES.txt'
+[1.849s] [ 50%] Built target ament_cmake_python_build_my_service_interfaces_egg
+[1.849s] [ 52%] [32m[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.849s] [ 55%] [32m[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_cpp.so[0m
+[1.850s] [ 58%] [32m[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.936s] [ 61%] Built target my_service_interfaces__rosidl_typesupport_fastrtps_c
+[2.117s] [ 64%] Built target my_service_interfaces__rosidl_typesupport_cpp
+[2.139s] [ 67%] Built target my_service_interfaces__rosidl_typesupport_introspection_cpp
+[2.141s] [ 70%] [32m[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.566s] [ 73%] Built target my_service_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.608s] [ 73%] Built target my_service_interfaces
+[2.650s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.684s] [ 76%] Built target my_service_interfaces__py
+[3.710s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_generator_py[0m
+[3.744s] [ 79%] [32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_service_interfaces/srv/_set_velocity_s.c.o[0m
+[4.166s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/my_service_interfaces/libmy_service_interfaces__rosidl_generator_py.so[0m
+[4.535s] [ 82%] Built target my_service_interfaces__rosidl_generator_py
+[4.561s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_c__pyext[0m
+[4.561s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.564s] [35m[1mConsolidate compiler generated dependencies of target my_service_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.592s] [ 85%] [32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.592s] [ 88%] [32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.600s] [ 91%] [32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.836s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.845s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.861s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.140s] [100%] Built target my_service_interfaces__rosidl_typesupport_c__pyext
+[5.143s] [100%] Built target my_service_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.200s] [100%] Built target my_service_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.221s] Invoked command in '/root/ros2_ws/build/my_service_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/my_service_interfaces -- -j12 -l12
+[5.239s] Invoking command in '/root/ros2_ws/build/my_service_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/my_service_interfaces
+[5.253s] -- Install configuration: ""
+[5.254s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_service_interfaces
+[5.255s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.json
+[5.255s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces
+[5.256s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg
+[5.256s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.256s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv
+[5.257s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/set_velocity.h
+[5.257s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail
+[5.257s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__struct.h
+[5.258s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__functions.c
+[5.258s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__functions.h
+[5.259s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__description.c
+[5.259s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.h
+[5.259s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.c
+[5.259s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/library_path.sh
+[5.259s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/library_path.dsv
+[5.260s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_c.so
+[5.260s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces
+[5.260s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg
+[5.261s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.261s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv
+[5.262s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail
+[5.263s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_fastrtps_c.h
+[5.263s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.264s] -- Set runtime path of "/root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.265s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces
+[5.265s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg
+[5.266s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.266s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv
+[5.266s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail
+[5.267s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h
+[5.267s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.c
+[5.269s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_c.so
+[5.269s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_c.so
+[5.270s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces
+[5.270s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv
+[5.271s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/set_velocity.hpp
+[5.271s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail
+[5.272s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__struct.hpp
+[5.272s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__traits.hpp
+[5.272s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__builder.hpp
+[5.273s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces
+[5.273s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg
+[5.274s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.274s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv
+[5.274s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail
+[5.275s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[5.275s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/dds_fastrtps
+[5.277s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.279s] -- Set runtime path of "/root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.279s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces
+[5.279s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv
+[5.280s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail
+[5.280s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_introspection_cpp.hpp
+[5.281s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.cpp
+[5.283s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.284s] -- Set runtime path of "/root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.286s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_cpp.so
+[5.287s] -- Set runtime path of "/root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.287s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/pythonpath.sh
+[5.288s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/pythonpath.dsv
+[5.288s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces-0.0.0-py3.10.egg-info
+[5.288s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.289s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.289s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.290s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.290s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces
+[5.291s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.291s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/__init__.py
+[5.291s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.291s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.292s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_c.c
+[5.292s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/srv
+[5.293s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/srv/__init__.py
+[5.293s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/srv/_set_velocity_s.c
+[5.294s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/srv/_set_velocity.py
+[5.294s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.295s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/libmy_service_interfaces__rosidl_generator_py.so
+[5.295s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.372s] Listing '/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces'...
+[5.372s] Listing '/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/srv'...
+[5.373s] Compiling '/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/srv/__init__.py'...
+[5.373s] Compiling '/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/srv/_set_velocity.py'...
+[5.381s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.382s] -- Set runtime path of "/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.382s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.383s] -- Set runtime path of "/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.384s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.385s] -- Set runtime path of "/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.385s] -- Installing: /root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_py.so
+[5.387s] -- Set runtime path of "/root/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_py.so" to ""
+[5.387s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.idl
+[5.387s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.srv
+[5.388s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity_Request.msg
+[5.388s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity_Response.msg
+[5.389s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/ament_index/resource_index/package_run_dependencies/my_service_interfaces
+[5.389s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/ament_index/resource_index/parent_prefix_path/my_service_interfaces
+[5.389s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/ament_prefix_path.sh
+[5.390s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/ament_prefix_path.dsv
+[5.390s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/path.sh
+[5.390s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/path.dsv
+[5.390s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/local_setup.bash
+[5.390s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/local_setup.sh
+[5.391s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/local_setup.zsh
+[5.391s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/local_setup.dsv
+[5.391s] -- Installing: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/package.dsv
+[5.391s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/ament_index/resource_index/packages/my_service_interfaces
+[5.393s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cExport.cmake
+[5.393s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.395s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.395s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.396s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.397s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.398s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cExport.cmake
+[5.398s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.400s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cppExport.cmake
+[5.402s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.402s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.403s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.403s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.404s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cppExport.cmake
+[5.404s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.406s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_pyExport.cmake
+[5.407s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.407s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.407s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.408s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.408s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.408s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.408s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.408s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.408s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfacesConfig.cmake
+[5.409s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfacesConfig-version.cmake
+[5.409s] -- Up-to-date: /root/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/package.xml
+[5.420s] Invoked command in '/root/ros2_ws/build/my_service_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/my_service_interfaces

@@ -1,0 +1,35 @@
+[2.751s] Invoking command in '/root/ros2_ws/src/my_service_client': PYTHONPATH=/root/ros2_ws/build/my_service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_service_client/lib/python3.10/site-packages:/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages:/root/ros2_ws/install/talker/lib/python3.10/site-packages:/root/ros2_ws/install/my_turtle_controller/lib/python3.10/site-packages:/root/ros2_ws/install/my_service_server/lib/python3.10/site-packages:/root/ros2_ws/install/listener/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_client build --build-base /root/ros2_ws/build/my_service_client/build install --record /root/ros2_ws/build/my_service_client/install.log --single-version-externally-managed install_data
+[3.027s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[3.027s]   warnings.warn(msg)
+[3.225s] running egg_info
+[3.255s] creating ../../build/my_service_client/my_service_client.egg-info
+[3.256s] writing ../../build/my_service_client/my_service_client.egg-info/PKG-INFO
+[3.258s] writing dependency_links to ../../build/my_service_client/my_service_client.egg-info/dependency_links.txt
+[3.258s] writing entry points to ../../build/my_service_client/my_service_client.egg-info/entry_points.txt
+[3.259s] writing requirements to ../../build/my_service_client/my_service_client.egg-info/requires.txt
+[3.259s] writing top-level names to ../../build/my_service_client/my_service_client.egg-info/top_level.txt
+[3.260s] writing manifest file '../../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[3.323s] reading manifest file '../../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[3.325s] writing manifest file '../../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[3.326s] running build
+[3.327s] running build_py
+[3.327s] creating /root/ros2_ws/build/my_service_client/build/lib/my_service_client
+[3.329s] copying my_service_client/client_node.py -> /root/ros2_ws/build/my_service_client/build/lib/my_service_client
+[3.329s] copying my_service_client/__init__.py -> /root/ros2_ws/build/my_service_client/build/lib/my_service_client
+[3.330s] running install
+[3.338s] running install_lib
+[3.371s] creating /root/ros2_ws/install/my_service_client/lib/python3.10/site-packages/my_service_client
+[3.372s] copying /root/ros2_ws/build/my_service_client/build/lib/my_service_client/client_node.py -> /root/ros2_ws/install/my_service_client/lib/python3.10/site-packages/my_service_client
+[3.372s] copying /root/ros2_ws/build/my_service_client/build/lib/my_service_client/__init__.py -> /root/ros2_ws/install/my_service_client/lib/python3.10/site-packages/my_service_client
+[3.374s] byte-compiling /root/ros2_ws/install/my_service_client/lib/python3.10/site-packages/my_service_client/client_node.py to client_node.cpython-310.pyc
+[3.376s] byte-compiling /root/ros2_ws/install/my_service_client/lib/python3.10/site-packages/my_service_client/__init__.py to __init__.cpython-310.pyc
+[3.377s] running install_data
+[3.378s] creating /root/ros2_ws/install/my_service_client/share/ament_index/resource_index/packages
+[3.383s] copying resource/my_service_client -> /root/ros2_ws/install/my_service_client/share/ament_index/resource_index/packages
+[3.383s] copying package.xml -> /root/ros2_ws/install/my_service_client/share/my_service_client
+[3.384s] running install_egg_info
+[3.418s] Copying ../../build/my_service_client/my_service_client.egg-info to /root/ros2_ws/install/my_service_client/lib/python3.10/site-packages/my_service_client-0.0.0-py3.10.egg-info
+[3.421s] running install_scripts
+[3.680s] Installing velocity_client script to /root/ros2_ws/install/my_service_client/lib/my_service_client
+[3.681s] writing list of installed files to '/root/ros2_ws/build/my_service_client/install.log'
+[3.720s] Invoked command in '/root/ros2_ws/src/my_service_client' returned '0': PYTHONPATH=/root/ros2_ws/build/my_service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_service_client/lib/python3.10/site-packages:/root/ros2_ws/install/my_service_interfaces/lib/python3.10/site-packages:/root/ros2_ws/install/talker/lib/python3.10/site-packages:/root/ros2_ws/install/my_turtle_controller/lib/python3.10/site-packages:/root/ros2_ws/install/my_service_server/lib/python3.10/site-packages:/root/ros2_ws/install/listener/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_client build --build-base /root/ros2_ws/build/my_service_client/build install --record /root/ros2_ws/build/my_service_client/install.log --single-version-externally-managed install_data

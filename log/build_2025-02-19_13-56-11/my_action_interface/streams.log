@@ -1,0 +1,24 @@
+[0.295s] Invoking command in '/root/ros2_ws/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/my_calculate_action:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/my_action_interface -- -j12 -l12
+[0.793s] [  2%] Built target my_action_interface__rosidl_generator_type_description
+[0.793s] [  2%] Built target ament_cmake_python_copy_my_action_interface
+[0.793s] [ 11%] Built target my_action_interface__cpp
+[0.793s] [ 20%] Built target my_action_interface__rosidl_generator_c
+[0.794s] [ 55%] Built target my_action_interface__rosidl_typesupport_cpp
+[0.794s] [ 55%] Built target my_action_interface__rosidl_typesupport_c
+[0.794s] [ 55%] Built target my_action_interface__rosidl_typesupport_fastrtps_c
+[0.794s] [ 55%] Built target my_action_interface__rosidl_typesupport_introspection_c
+[0.794s] [ 64%] Built target my_action_interface__rosidl_typesupport_introspection_cpp
+[0.794s] [ 73%] Built target my_action_interface__rosidl_typesupport_fastrtps_cpp
+[0.794s] [ 73%] Built target my_action_interface
+[0.794s] [ 76%] Built target my_action_interface__py
+[0.794s] [ 82%] Built target my_action_interface__rosidl_generator_py
+[0.794s] [100%] Built target my_action_interface__rosidl_typesupport_introspection_c__pyext
+[0.794s] [100%] Built target my_action_interface__rosidl_typesupport_c__pyext
+[0.794s] [100%] Built target my_action_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.794s] running egg_info
+[0.794s] writing my_action_interface.egg-info/PKG-INFO
+[0.794s] writing dependency_links to my_action_interface.egg-info/dependency_links.txt
+[0.794s] writing top-level names to my_action_interface.egg-info/top_level.txt
+[0.794s] reading manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[0.794s] writing manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[0.795s] [100%] Built target ament_cmake_python_build_my_action_interface_egg

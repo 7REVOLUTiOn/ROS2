@@ -1,0 +1,238 @@
+[0.015s] Invoking command in '/root/ros2_ws/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/my_action_interface -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_action_interface
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.865s] -- The CXX compiler identification is GNU 11.4.0
+[1.287s] -- Detecting C compiler ABI info
+[1.447s] -- Detecting C compiler ABI info - done
+[1.453s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.454s] -- Detecting C compile features
+[1.455s] -- Detecting C compile features - done
+[1.459s] -- Detecting CXX compiler ABI info
+[1.620s] -- Detecting CXX compiler ABI info - done
+[1.626s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.627s] -- Detecting CXX compile features
+[1.627s] -- Detecting CXX compile features - done
+[1.631s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.955s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.064s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[2.074s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.327s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[2.764s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[2.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.315s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.318s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[3.803s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.803s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.803s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.803s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.822s] -- Found PythonExtra: .so  
+[3.911s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.946s] -- Added test 'lint_cmake' to check CMake code style
+[3.947s] -- Added test 'xmllint' to check XML markup files
+[3.951s] -- Configuring done
+[3.992s] -- Generating done
+[4.002s] -- Build files have been written to: /root/ros2_ws/build/my_action_interface
+[4.013s] Invoked command in '/root/ros2_ws/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/my_action_interface -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_action_interface
+[4.016s] Invoking command in '/root/ros2_ws/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/my_action_interface -- -j12 -l12
+[4.052s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.058s] [  2%] Built target ament_cmake_python_copy_my_action_interface
+[4.240s] [  2%] Built target my_action_interface__rosidl_generator_type_description
+[4.242s] running egg_info
+[4.248s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.255s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.257s] creating my_action_interface.egg-info
+[4.257s] writing my_action_interface.egg-info/PKG-INFO
+[4.258s] writing dependency_links to my_action_interface.egg-info/dependency_links.txt
+[4.258s] writing top-level names to my_action_interface.egg-info/top_level.txt
+[4.258s] writing manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[4.302s] reading manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[4.303s] writing manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[4.328s] [  8%] Built target ament_cmake_python_build_my_action_interface_egg
+[4.654s] [  8%] Built target my_action_interface__cpp
+[4.701s] [ 17%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/summ_calculate__type_support.c.o[0m
+[4.701s] [ 17%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/summ_calculate__functions.c.o[0m
+[4.701s] [ 17%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/summ_calculate__description.c.o[0m
+[4.841s] [ 20%] [32m[1mLinking C shared library libmy_action_interface__rosidl_generator_c.so[0m
+[4.967s] [ 20%] Built target my_action_interface__rosidl_generator_c
+[4.975s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.975s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.975s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.976s] [ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.976s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.976s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.281s] [ 41%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_action_interface/action/summ_calculate__type_support.cpp.o[0m
+[5.283s] [ 44%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_action_interface/action/summ_calculate__type_support.cpp.o[0m
+[5.344s] [ 47%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_action_interface/action/detail/summ_calculate__type_support.c.o[0m
+[5.345s] [ 50%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_c.so[0m
+[5.372s] [ 52%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_action_interface/action/detail/summ_calculate__type_support.cpp.o[0m
+[5.372s] [ 55%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_action_interface/action/detail/summ_calculate__type_support_c.cpp.o[0m
+[5.394s] [ 58%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_action_interface/action/detail/dds_fastrtps/summ_calculate__type_support.cpp.o[0m
+[5.409s] [ 61%] [32m[1mLinking C shared library libmy_action_interface__rosidl_typesupport_introspection_c.so[0m
+[5.495s] [ 61%] Built target my_action_interface__rosidl_typesupport_c
+[5.549s] [ 61%] Built target my_action_interface__rosidl_typesupport_introspection_c
+[5.797s] [ 64%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_fastrtps_c.so[0m
+[5.983s] [ 64%] Built target my_action_interface__rosidl_typesupport_fastrtps_c
+[6.064s] [ 67%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_cpp.so[0m
+[6.148s] [ 70%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_introspection_cpp.so[0m
+[6.215s] [ 73%] [32m[1mLinking CXX shared library libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.229s] [ 73%] Built target my_action_interface__rosidl_typesupport_cpp
+[6.304s] [ 73%] Built target my_action_interface__rosidl_typesupport_introspection_cpp
+[6.372s] [ 73%] Built target my_action_interface__rosidl_typesupport_fastrtps_cpp
+[6.386s] [ 73%] Built target my_action_interface
+[6.400s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.088s] [ 76%] Built target my_action_interface__py
+[7.102s] [ 79%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_py.dir/rosidl_generator_py/my_action_interface/action/_summ_calculate_s.c.o[0m
+[7.276s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/my_action_interface/libmy_action_interface__rosidl_generator_py.so[0m
+[7.390s] [ 82%] Built target my_action_interface__rosidl_generator_py
+[7.400s] gmake[2]: Warning: File 'libmy_action_interface__rosidl_typesupport_fastrtps_c.so' has modification time 32388 s in the future
+[7.405s] [ 91%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.405s] [ 91%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.406s] [ 91%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[7.510s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.533s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.533s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.620s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.626s] [100%] Built target my_action_interface__rosidl_typesupport_introspection_c__pyext
+[7.626s] [100%] Built target my_action_interface__rosidl_typesupport_c__pyext
+[7.626s] [100%] Built target my_action_interface__rosidl_typesupport_fastrtps_c__pyext
+[7.635s] Invoked command in '/root/ros2_ws/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/my_action_interface -- -j12 -l12
+[7.643s] Invoking command in '/root/ros2_ws/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/my_action_interface
+[7.648s] -- Install configuration: ""
+[7.649s] -- Installing: /root/ros2_ws/install/my_action_interface/share/ament_index/resource_index/rosidl_interfaces/my_action_interface
+[7.649s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/action/SummCalculate.json
+[7.650s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[7.650s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[7.650s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_generator_c__visibility_control.h
+[7.650s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[7.651s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/summ_calculate.h
+[7.651s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[7.651s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.h
+[7.651s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__description.c
+[7.651s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__functions.c
+[7.651s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.c
+[7.652s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__functions.h
+[7.652s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__struct.h
+[7.652s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/environment/library_path.sh
+[7.652s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/environment/library_path.dsv
+[7.653s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_c.so
+[7.653s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_c.so" to ""
+[7.653s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[7.653s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[7.653s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.654s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[7.654s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[7.654s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__rosidl_typesupport_fastrtps_c.h
+[7.654s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_c.so
+[7.654s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[7.654s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[7.654s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[7.654s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.655s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[7.655s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[7.655s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.c
+[7.655s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__rosidl_typesupport_introspection_c.h
+[7.655s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_c.so
+[7.655s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_c.so" to ""
+[7.655s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_c.so
+[7.655s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_c.so" to ""
+[7.655s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[7.655s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[7.656s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/summ_calculate.hpp
+[7.656s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[7.656s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__struct.hpp
+[7.656s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__builder.hpp
+[7.656s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__traits.hpp
+[7.656s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[7.656s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[7.656s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.656s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[7.657s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[7.657s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/dds_fastrtps
+[7.657s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__rosidl_typesupport_fastrtps_cpp.hpp
+[7.657s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so
+[7.657s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.658s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface
+[7.658s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[7.658s] -- Up-to-date: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[7.658s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.cpp
+[7.658s] -- Installing: /root/ros2_ws/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__rosidl_typesupport_introspection_cpp.hpp
+[7.658s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_cpp.so
+[7.659s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[7.659s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_cpp.so
+[7.659s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_cpp.so" to ""
+[7.659s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/environment/pythonpath.sh
+[7.659s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/environment/pythonpath.dsv
+[7.659s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface-0.0.0-py3.10.egg-info
+[7.660s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.660s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface-0.0.0-py3.10.egg-info/top_level.txt
+[7.660s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[7.660s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.660s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface
+[7.661s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/__init__.py
+[7.661s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.661s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.661s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_introspection_c.c
+[7.661s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.661s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/action
+[7.662s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/action/__init__.py
+[7.662s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/action/_summ_calculate_s.c
+[7.662s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/action/_summ_calculate.py
+[7.662s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/libmy_action_interface__rosidl_generator_py.so
+[7.662s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.663s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_c.c
+[7.700s] Listing '/root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface'...
+[7.700s] Compiling '/root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/__init__.py'...
+[7.700s] Listing '/root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/action'...
+[7.700s] Compiling '/root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/action/__init__.py'...
+[7.700s] Compiling '/root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/action/_summ_calculate.py'...
+[7.704s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.705s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.705s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.705s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.705s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.706s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/python3.10/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.706s] -- Installing: /root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_py.so
+[7.706s] -- Set runtime path of "/root/ros2_ws/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_py.so" to ""
+[7.706s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/action/SummCalculate.idl
+[7.707s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/action/SummCalculate.action
+[7.707s] -- Installing: /root/ros2_ws/install/my_action_interface/share/ament_index/resource_index/package_run_dependencies/my_action_interface
+[7.707s] -- Installing: /root/ros2_ws/install/my_action_interface/share/ament_index/resource_index/parent_prefix_path/my_action_interface
+[7.707s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/environment/ament_prefix_path.sh
+[7.707s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/environment/ament_prefix_path.dsv
+[7.708s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/environment/path.sh
+[7.708s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/environment/path.dsv
+[7.708s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/local_setup.bash
+[7.708s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/local_setup.sh
+[7.708s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/local_setup.zsh
+[7.708s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/local_setup.dsv
+[7.708s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/package.dsv
+[7.709s] -- Installing: /root/ros2_ws/install/my_action_interface/share/ament_index/resource_index/packages/my_action_interface
+[7.709s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cExport.cmake
+[7.709s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cExport-noconfig.cmake
+[7.709s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[7.710s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.710s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cExport.cmake
+[7.710s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.710s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cExport.cmake
+[7.710s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cExport-noconfig.cmake
+[7.710s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cppExport.cmake
+[7.711s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.711s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.711s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cppExport.cmake
+[7.711s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.711s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cppExport.cmake
+[7.711s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[7.711s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_pyExport.cmake
+[7.712s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_pyExport-noconfig.cmake
+[7.712s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake-extras.cmake
+[7.712s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.712s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.712s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[7.712s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_targets-extras.cmake
+[7.713s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.713s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.713s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interfaceConfig.cmake
+[7.713s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/cmake/my_action_interfaceConfig-version.cmake
+[7.713s] -- Installing: /root/ros2_ws/install/my_action_interface/share/my_action_interface/package.xml
+[7.716s] Invoked command in '/root/ros2_ws/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/talker:/root/ros2_ws/install/my_turtle_controller:/root/ros2_ws/install/my_service_server:/root/ros2_ws/install/my_service_client:/root/ros2_ws/install/listener:/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/my_action_interface

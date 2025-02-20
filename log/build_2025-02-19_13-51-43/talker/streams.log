@@ -1,0 +1,27 @@
+[1.751s] Invoking command in '/root/ros2_ws/src/talker': PYTHONPATH=/root/ros2_ws/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker build --build-base /root/ros2_ws/build/talker/build install --record /root/ros2_ws/build/talker/install.log --single-version-externally-managed install_data
+[1.927s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.927s]   warnings.warn(msg)
+[2.054s] running egg_info
+[2.069s] writing ../../build/talker/talker.egg-info/PKG-INFO
+[2.069s] writing dependency_links to ../../build/talker/talker.egg-info/dependency_links.txt
+[2.070s] writing entry points to ../../build/talker/talker.egg-info/entry_points.txt
+[2.070s] writing requirements to ../../build/talker/talker.egg-info/requires.txt
+[2.070s] writing top-level names to ../../build/talker/talker.egg-info/top_level.txt
+[2.101s] reading manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[2.103s] writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[2.103s] running build
+[2.103s] running build_py
+[2.104s] copying talker/__init__.py -> /root/ros2_ws/build/talker/build/lib/talker
+[2.104s] copying talker/talker_node.py -> /root/ros2_ws/build/talker/build/lib/talker
+[2.105s] running install
+[2.108s] running install_lib
+[2.125s] running install_data
+[2.126s] copying resource/talker -> /root/ros2_ws/install/talker/share/ament_index/resource_index/packages
+[2.126s] copying package.xml -> /root/ros2_ws/install/talker/share/talker
+[2.126s] running install_egg_info
+[2.147s] removing '/root/ros2_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info' (and everything under it)
+[2.147s] Copying ../../build/talker/talker.egg-info to /root/ros2_ws/install/talker/lib/python3.10/site-packages/talker-0.0.0-py3.10.egg-info
+[2.149s] running install_scripts
+[2.294s] Installing talker script to /root/ros2_ws/install/talker/lib/talker
+[2.295s] writing list of installed files to '/root/ros2_ws/build/talker/install.log'
+[2.333s] Invoked command in '/root/ros2_ws/src/talker' returned '0': PYTHONPATH=/root/ros2_ws/build/talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker build --build-base /root/ros2_ws/build/talker/build install --record /root/ros2_ws/build/talker/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[1.763s] Invoking command in '/root/ros2_ws/src/my_calculate_action': PYTHONPATH=/root/ros2_ws/build/my_calculate_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_calculate_action build --build-base /root/ros2_ws/build/my_calculate_action/build install --record /root/ros2_ws/build/my_calculate_action/install.log --single-version-externally-managed install_data
+[1.912s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.912s]   warnings.warn(msg)
+[2.009s] running egg_info
+[2.025s] writing ../../build/my_calculate_action/my_calculate_action.egg-info/PKG-INFO
+[2.026s] writing dependency_links to ../../build/my_calculate_action/my_calculate_action.egg-info/dependency_links.txt
+[2.026s] writing entry points to ../../build/my_calculate_action/my_calculate_action.egg-info/entry_points.txt
+[2.026s] writing requirements to ../../build/my_calculate_action/my_calculate_action.egg-info/requires.txt
+[2.026s] writing top-level names to ../../build/my_calculate_action/my_calculate_action.egg-info/top_level.txt
+[2.065s] reading manifest file '../../build/my_calculate_action/my_calculate_action.egg-info/SOURCES.txt'
+[2.067s] writing manifest file '../../build/my_calculate_action/my_calculate_action.egg-info/SOURCES.txt'
+[2.067s] running build
+[2.067s] running build_py
+[2.068s] copying my_calculate_action/__init__.py -> /root/ros2_ws/build/my_calculate_action/build/lib/my_calculate_action
+[2.068s] copying my_calculate_action/calculate_action_client.py -> /root/ros2_ws/build/my_calculate_action/build/lib/my_calculate_action
+[2.068s] copying my_calculate_action/publisher_node.py -> /root/ros2_ws/build/my_calculate_action/build/lib/my_calculate_action
+[2.069s] copying my_calculate_action/calculate_action_server.py -> /root/ros2_ws/build/my_calculate_action/build/lib/my_calculate_action
+[2.069s] running install
+[2.073s] running install_lib
+[2.094s] copying /root/ros2_ws/build/my_calculate_action/build/lib/my_calculate_action/calculate_action_client.py -> /root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages/my_calculate_action
+[2.094s] copying /root/ros2_ws/build/my_calculate_action/build/lib/my_calculate_action/publisher_node.py -> /root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages/my_calculate_action
+[2.094s] copying /root/ros2_ws/build/my_calculate_action/build/lib/my_calculate_action/calculate_action_server.py -> /root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages/my_calculate_action
+[2.095s] byte-compiling /root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages/my_calculate_action/calculate_action_client.py to calculate_action_client.cpython-310.pyc
+[2.096s] byte-compiling /root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages/my_calculate_action/publisher_node.py to publisher_node.cpython-310.pyc
+[2.096s] Sorry: IndentationError: expected an indented block after function definition on line 18 (publisher_node.py, line 19)
+[2.097s] byte-compiling /root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages/my_calculate_action/calculate_action_server.py to calculate_action_server.cpython-310.pyc
+[2.097s] running install_data
+[2.098s] copying resource/my_calculate_action -> /root/ros2_ws/install/my_calculate_action/share/ament_index/resource_index/packages
+[2.098s] copying package.xml -> /root/ros2_ws/install/my_calculate_action/share/my_calculate_action
+[2.098s] running install_egg_info
+[2.121s] removing '/root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages/my_calculate_action-0.0.0-py3.10.egg-info' (and everything under it)
+[2.122s] Copying ../../build/my_calculate_action/my_calculate_action.egg-info to /root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages/my_calculate_action-0.0.0-py3.10.egg-info
+[2.123s] running install_scripts
+[2.269s] Installing calculate_action_client script to /root/ros2_ws/install/my_calculate_action/lib/my_calculate_action
+[2.271s] Installing calculate_action_server script to /root/ros2_ws/install/my_calculate_action/lib/my_calculate_action
+[2.271s] writing list of installed files to '/root/ros2_ws/build/my_calculate_action/install.log'
+[2.307s] Invoked command in '/root/ros2_ws/src/my_calculate_action' returned '0': PYTHONPATH=/root/ros2_ws/build/my_calculate_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_calculate_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_calculate_action build --build-base /root/ros2_ws/build/my_calculate_action/build install --record /root/ros2_ws/build/my_calculate_action/install.log --single-version-externally-managed install_data

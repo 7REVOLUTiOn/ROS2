@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_custom_interface__py",
+		"source" : "/root/ros2_ws/build/my_custom_interface/my_custom_interface__py"
+	}
+}
